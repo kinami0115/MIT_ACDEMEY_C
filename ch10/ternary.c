@@ -1,0 +1,18 @@
+#include <stdio.h>
+int main(void)
+{
+    int input,a;
+    printf("숫자 입력:");
+    scanf("%d", &input);
+
+    // if(input ==0)
+    //     a=0;
+    // else
+    //     a=1;
+  
+    a=(input ==0) ?0 :1
+
+
+
+    return 0;
+}
